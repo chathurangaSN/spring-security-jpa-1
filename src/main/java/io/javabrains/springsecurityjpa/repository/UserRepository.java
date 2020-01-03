@@ -1,4 +1,4 @@
-package io.javabrains.springsecurityjpa;
+package io.javabrains.springsecurityjpa.repository;
 
 import io.javabrains.springsecurityjpa.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -3,12 +3,14 @@ package io.javabrains.springsecurityjpa.models;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "User")
+@Table(name = "myuser")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
+//    @Column(name="user_name")
     private String userName;
+//    @Column(name="pswd")
     private String password;
     private boolean active;
     private String roles;
